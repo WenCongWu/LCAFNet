@@ -1,0 +1,23 @@
+# COCO 2017 dataset http://cocodataset.org - first 128 training images
+# Train command: python train.py --data coco128.yaml
+# Default dataset location is next to YOLOv5:
+#   /parent_folder
+#     /coco128
+#     /yolov5
+
+
+# download command/URL (optional)
+download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+path: /home/F/wwc/PythonProjects/LCAFNet/dataset/MFAD
+train_rgb: /home/F/wwc/PythonProjects/LCAFNet/dataset/MFAD/visible/train
+val_rgb: /home/F/wwc/PythonProjects/LCAFNet/dataset/MFAD/visible/test
+train_ir: /home/F/wwc/PythonProjects/LCAFNet/dataset/MFAD/infrared/train
+val_ir: /home/F/wwc/PythonProjects/LCAFNet/dataset/MFAD/infrared/test
+
+# number of classes
+nc: 6
+
+# class names
+names: ['Car', 'Bus', 'Truck', 'Pedestrian', 'Ebikerider', 'Cyclist']
