@@ -42,7 +42,8 @@ If you find LCAFNet helpful for your research, please consider citing our work.
                   Xiuwei Zhang and
                   Hanlin Yin and
                   Yanning Zhang},
-  title        = {Lightweight modal-guided cross-attention fusion network for visible-infrared object detection},
+  title        = {Lightweight modal-guided cross-attention fusion network for visible-infrared
+                  object detection},
   journal      = {Pattern Recognition},
   volume       = {177},
   pages        = {113350},
